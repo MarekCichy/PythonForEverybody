@@ -4,7 +4,7 @@ try:
     fhand = open(fname, encoding='utf8')
 except:
     print('File cannot be opened:', fname)
-    eeaxit()
+    exit()
 counts = dict()
 
 for line in fhand:
